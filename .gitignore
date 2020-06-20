@@ -1,0 +1,6 @@
+# git ignore
+
+_php/database.php
+/dist
+/.idea
+/node_modules

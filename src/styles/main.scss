@@ -1,0 +1,92 @@
+
+// DIV BACK COLORS
+$body-color: white;
+$money-color: green;
+$button-color: blue;
+$inactive-button: grey;
+// TEST SIZES
+$title-font-size: 32pt;
+$subtitle-font-size: 20pt;
+$main-font-size: 12pt;
+$label-font-size: 16pt;
+$button-font-size:14pt;
+// TEXT COLORS
+$main-font-color: black;
+$money-font-color: white;
+body {
+  background-color: $body-color;
+  color: $main-font-color;
+  font-size: $main-font-size;
+}
+#main{
+  width: 100%;
+}
+
+#title{
+  width: 100%;
+  font-size: $title-font-size;
+  text-align: center;
+}
+#earnOn{
+  font-size: $label-font-size;
+}
+
+#mainMoney{
+  width:  auto;
+  margin: auto;
+  padding: 10px;
+  font-size: $subtitle-font-size;
+  background-color: $money-color;
+  color: $money-font-color;
+  text-align: center;
+}
+
+#rules{
+  width:  auto;
+  margin: auto;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: $main-font-size;
+  color: $main-font-color;
+  text-align: left;
+}
+
+.bizBox{
+  float: left;
+  width: 250px;
+  display: inline-block;
+  border: 5px solid green;
+  border-radius: 5px;
+  margin: 10px;
+  align-content: center;
+}
+
+.bizLabel{
+  width: 100%;
+  font-size: $label-font-size;
+  text-align: center;
+  align-content: center;
+}
+
+.bizMoney{
+  font-size: $label-font-size;
+  background-color: $money-color;
+  color: $money-font-color;
+}
+
+.info{
+  font-size: $main-font-size;
+  background-color: $money-color;
+  color: $money-font-color;
+  text-align: left;
+}
+
+.resetSpan{
+  margin:50%;
+  width: 100%;
+  right: 10px;
+  position: absolute;
+}
+
+
